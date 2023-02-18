@@ -19,8 +19,14 @@
       <li class="nav-item active">
         <a class="btn btn-danger" href="{% url 'movieapp:add_movie' %}">Add movie<span class="sr-only">(current)</span></a>
       </li>
+      </div>
+      <div class=col-12 col-sm-12 col-md-12 col-lg-12>
+      <li class="nav-item">
+        <a class="btn btn-warning" href="{% url 'movieapp:index' %}">Home</a>
+      </li>
+      </div>
     </ul>
-  </div>
+  <!--</div>-->
 </nav>
 {% block body %}
 {% endblock %}
